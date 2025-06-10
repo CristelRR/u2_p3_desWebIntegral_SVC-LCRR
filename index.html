@@ -1,20 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Header</title>
+  <style>
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e6f0ff; /* azul muy suave */
+      color: #003366; /* azul oscuro */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4a90e2, #005cbf);
+      color: white;
+      padding: 20px 40px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 92, 191, 0.2);
+      border-radius: 8px;
+    }
+
+    main h2 {
+      color: #004080;
+      margin-top: 0;
+    }
+
+    main p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #003366;
+    }
+
+    footer {
+      background: #004080;
+      color: #cce0ff;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    footer a {
+      color: #a9cfff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #e0f0ff;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
     Este es el encabezado
   </header>
- <main>
-    <h2>  Contenido principal</h2>
-    <p>E ste es el contenido de la página. Aquí puedes poner texto, imágenes, enlaces o cualquier otro elemento que desees mostrar al usuario.</p>
+  <main>
+    <h2>Contenido principal</h2>
+    <p>Este es el contenido de la página. Aquí puedes poner texto, imágenes, enlaces o cualquier otro elemento que desees mostrar al usuario.</p>
   </main>
-<footer>
-  <p>Derechos Reservados</p>
-  <p><a href="mailto:hege@example.com">cristel23rr@gmail.com</a></p>
-</footer>
+  <footer>
+    <p>Derechos Reservados</p>
+    <p><a href="mailto:hege@example.com">cristel23rr@gmail.com</a></p>
+  </footer>
 </body>
 </html>
